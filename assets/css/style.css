@@ -4,14 +4,18 @@
     box-sizing: border-box;
 }
 body{
-    background-color:rgb(104, 103, 106);
+    background-color:rgba(104, 103, 106, 0.656);
     color:black;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family:monospace;
    }
 header{
     background-color:rgba(104, 103, 106);
     padding:30px;
     display:flex;
+    max-height:200px;
+    width: 100%;
+    border-bottom: 5px solid black;
+
     
 }
 
@@ -26,7 +30,8 @@ nav{
     float: right;
     width: 100%;
     height: 100%;
-    padding-bottom: 20px;
+    align-content: space-around;
+    padding-top: 100px;
 }
 nav ul{
     list-style-type: none;
@@ -45,7 +50,7 @@ nav li{
 nav li a{
    
     color:rgb(0, 0, 0);
-    font-weight:bold;
+    
     text-align:end;
     padding: 20px 16px;
     text-decoration: none;
@@ -58,35 +63,36 @@ nav li a:hover{
 }
 
 .hero{
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    max-width: 68.75;
-    max-height: 300px;
-    margin: auto;
-    background-color:rgb(58, 59, 59);
+   height: 400px;
+   width: 100%;
+   margin-bottom: 25px;
+   background-image:url("../images/gutter.jpg");
+   background-size: cover;
+   background-position:center;
+   border-bottom: 5px solid black;
 }
-.hero img{
-    height: 100%;
-    width: 100%;
-}
+
+
 .hero-text{
-    font-size: 20px;
+    float: right;
+    font-size: 30px;
     position:relative;
-    top:200px;
-    left:80px;
+    top:300px;
+    right: 30px;
+    
 }
 .main_container{
     display:flex;
 }
 .float_left{
     float:left;
-    font-size: 40px;
+    font-size: 50px;
     flex: 30%;
     border-right: 5px solid black;
     padding: 5% 1% 2% 5%;
     margin: 5% 0;
     text-align: right;
+    align-items:flex-start;
 }
 .float_right{
     float:right;
@@ -95,7 +101,7 @@ nav li a:hover{
 }
 .img_container{
     display: flex;
-    height: 800px;
+    height: 900px;
     flex-wrap: wrap;
     align-items: stretch;
     align-content:stretch;
@@ -104,37 +110,92 @@ nav li a:hover{
 .img_children{
     flex: 45%;
     max-height: 200px;
-    margin: 10px;
-    outline: 5px solid black;
+    
+    margin: 5px;
+    border: 5px solid black;
     overflow: hidden;
     filter:brightness(50%);
-    
+    position:relative;
+   /* background-image: url("../images/grass.jpg");
+    width: 100%;
+    background-size: cover;
+   background-position:center;
+   z-index: 0;*/
 }
 .img_children:hover{
     filter:brightness(100%);
-
 }
 .img_children:first-child{
     max-height: 400px;
-}
-img{
-     height: 100%;
-    width: 100%;
+    background-image: url("../images/leaf.jpg");
+    background-size: cover;
+    background-position:center;
+    height:100%;
+    margin-top: 0;
     
 }
+.img_children:nth-child(2){
+    background-image: url("../images/grass.jpg");
+    background-size: cover;
+    background-position:center;
+    height:100%;
+    
+    
+    
+}
+.img_children:nth-child(3){
+    background-image: url("../images/tulips.jpg");
+    background-size: cover;
+    background-position:center;
+    height:100%;
+    
+}
+.img_children:nth-child(4){
+    background-image: url("../images/moon.jpg");
+    background-size: cover;
+    background-position:center;
+    height:100%;
+}
+.img_children:nth-child(5){
+    background-image: url("../images/Salamander.jpg");
+    position: relative;
+    background-size: cover;
+    background-position:center;
+    height:100%;
+    
+}
+    
+/*img{
+     height: 100%;
+     width: 100%;
+     z-index: 0;
+     position: relative; 
+}*/
+
+
+.img_children p{
+    z-index:1;
+}
 .contact_me ul{
-    justify-content: center;
+   
+    position:fixed;
+    left:50%;
+    bottom:20px;
+    text-align:center;
+
 
 }
 .contact_me li{
     display: inline;
     font-size: 30px;
-    padding: 5px;
-    margin: 5px;
+    padding: 30px;
+    width: 100%;
+   
+    margin: 5px 20px;
     border-bottom: 5px solid black;
     text-decoration:none;
     text-transform:uppercase;
-    }
+ }
 .contact_me li a{
     text-decoration:none;
     color: black;
@@ -143,6 +204,5 @@ img{
 background-color:black;
 color:rgba(104, 103, 106);
 }
-
 
 
