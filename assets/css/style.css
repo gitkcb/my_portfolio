@@ -15,16 +15,14 @@ header{
     max-height:200px;
     width: 100%;
     border-bottom: 5px solid black;
-
-    
 }
-
 h1{
     font-size: 80px;
     position: relative;
     left: 50px;
-    
-    
+    background-color:black;
+    color:rgba(104, 103, 106);
+    padding: 0 20px;
 }
 nav{
     float: right;
@@ -55,31 +53,30 @@ nav li a{
     padding: 20px 16px;
     text-decoration: none;
     text-transform:uppercase;
-
 }
 nav li a:hover{
     background-color:black;
     color:rgba(104, 103, 106);
 }
-
 .hero{
-   height: 400px;
+   height: 350px;
    width: 100%;
    margin-bottom: 25px;
-   background-image:url("../images/gutter.jpg");
+   background-image:url("../images/beachgrass.jpg");
    background-size: cover;
    background-position:center;
    border-bottom: 5px solid black;
 }
-
-
 .hero-text{
     float: right;
     font-size: 30px;
     position:relative;
-    top:300px;
+    top:250px;
     right: 30px;
-    
+    background-color: rgb(0, 0, 0);
+    color: rgba(104, 103, 106);
+    padding: 0 20px;
+   
 }
 .main_container{
     display:flex;
@@ -99,6 +96,9 @@ nav li a:hover{
     flex: 68%;
     margin: 5% 5% 5% 3%;
 }
+p{
+    font-size: 20px;
+}
 .img_container{
     display: flex;
     height: 900px;
@@ -110,11 +110,10 @@ nav li a:hover{
 .img_children{
     flex: 45%;
     max-height: 200px;
-    
     margin: 5px;
     border: 5px solid black;
     overflow: hidden;
-    filter:brightness(50%);
+    filter:brightness(40%);
     position:relative;
    /* background-image: url("../images/grass.jpg");
     width: 100%;
@@ -127,44 +126,37 @@ nav li a:hover{
 }
 .img_children:first-child{
     max-height: 400px;
-    background-image: url("../images/leaf.jpg");
+    background-image: url("../images/gutter.jpg");
     background-size: cover;
     background-position:center;
     height:100%;
     margin-top: 0;
-    
 }
 .img_children:nth-child(2){
-    background-image: url("../images/grass.jpg");
+    background-image: url("../images/seaweed.jpg");
     background-size: cover;
     background-position:center;
     height:100%;
-    
-    
-    
 }
 .img_children:nth-child(3){
-    background-image: url("../images/tulips.jpg");
+    background-image: url("../images/pebble.jpg");
     background-size: cover;
     background-position:center;
     height:100%;
-    
 }
 .img_children:nth-child(4){
-    background-image: url("../images/moon.jpg");
+    background-image: url("../images/crab.jpg");
     background-size: cover;
     background-position:center;
     height:100%;
 }
 .img_children:nth-child(5){
-    background-image: url("../images/Salamander.jpg");
+    background-image: url("../images/beach.jpg");
     position: relative;
     background-size: cover;
     background-position:center;
     height:100%;
-    
 }
-    
 /*img{
      height: 100%;
      width: 100%;
@@ -172,25 +164,35 @@ nav li a:hover{
      position: relative; 
 }*/
 
-
-.img_children p{
-    z-index:1;
+.img_header{
+    font-size: 15px;
+    color: rgba(104, 103, 106);
+    background-color:black;
+    float: left;
+    padding: 20px;
+    position:relative;
+    top:45%;
 }
+.title{
+    font-size:25px;
+}
+
 .contact_me ul{
    
-    position:fixed;
+   /* position:fixed;
     left:50%;
-    bottom:20px;
-    text-align:center;
+    bottom:10px;
+    text-align:center;*/
 
 
 }
 .contact_me li{
     display: inline;
+    position: relative;
+    bottom: -100px;
     font-size: 30px;
     padding: 30px;
     width: 100%;
-   
     margin: 5px 20px;
     border-bottom: 5px solid black;
     text-decoration:none;
