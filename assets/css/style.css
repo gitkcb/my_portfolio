@@ -89,6 +89,7 @@ nav li a:hover{
 }
 .main_container{
     display:flex;
+   
 }
 .float_left{
     float:left;
@@ -320,6 +321,7 @@ color:rgba(104, 103, 106);
         left: 100%;
         align-content: flex-start;
         border-bottom: 3px solid black;
+        text-align:center;
     }
     .float_left{
         font-size:35px;
@@ -338,11 +340,25 @@ color:rgba(104, 103, 106);
 .main_container{
 flex-direction: column;
 
+
 }
 .float_left{
     float:none;
     border-right: none;
     border-bottom:5px solid black;
+    text-align:center;
+    margin: 0 30%;
+}
+.contact_me li{
+    text-align:center;
+    justify-content: center;
+align-items: center;
+   
+    
+}
+{
+    
+    
 }
 }
 
