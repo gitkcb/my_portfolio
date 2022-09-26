@@ -262,13 +262,17 @@ header{
 nav{
     padding-top: 1vh;
 }
-
-
-    nav ul{
+nav ul{
     font-size: 4vw;
+    position:relative;
+    top:5vh;
+    
 }
 nav li a{
-    padding: 10px 10px;
+    padding: 0px 0px;
+   margin: 10px 10px;
+  
+   
 }
 h1{
     font-size: 15vw;
