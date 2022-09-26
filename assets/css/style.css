@@ -68,7 +68,7 @@ nav li a:hover{
 }
 .hero-text{
     float: right;
-    font-size: 2vw;
+    font-size: 1.8vw;
     position:relative;
     top:250px;
     right: 30px;
@@ -263,11 +263,16 @@ color:rgba(104, 103, 106);
         height: 200px;
     }
     .hero-text{
-        top: 100px;
+        top: 150px;
     }
  }
  @media screen and (max-width: 575px) {
-    
+    h1{
+        font-size: 14vw;
+        width:50%;
+        min-height: 10vh;
+        
+}
  }
 
 
