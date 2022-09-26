@@ -20,18 +20,15 @@ screenshots from tablet:
 ![shows images of the contact section](assets/images/tablet-contact.jpg)
 
 screenshots from mobile device:
+![shows image of the header and nav bar](assets/images/mobile-header.jpg)
+![shows image of the work section](assets/images/mobile-work.jpg)
+![shows image of the contact me section](assets/images/mobile-contact.jpg)
 
 
-
-![alt text](assets/images/screenshot.png)
 
 ## Credits
 
-List your collaborators, if any, with links to their GitHub profiles.
-
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
+Help from bootcampspot, guides from https://developer.mozilla.org/en-US/ and https://www.w3schools.com/
 
 
 
