@@ -85,7 +85,7 @@ nav li a:hover{
 }
 .float_left{
     float:left;
-    font-size: 4vw;
+    font-size: 3.3vw;
     flex: 30%;
     border-right: 5px solid black;
     padding: 5% 1% 2% 5%;
@@ -103,7 +103,7 @@ p{
 }
 .img_container{
     display: flex;
-    height: 1300px;
+    height: 1200px;
     flex-wrap: wrap;
     align-items: stretch;
     align-content:stretch;
@@ -122,7 +122,7 @@ p{
     filter:brightness(100%);
 }
 .img_children:first-child{
-    max-height: 600px;
+    max-height: 500px;
     background-image: url("../images/gutter.jpg");
     background-size: cover;
     background-position:center;
@@ -198,7 +198,7 @@ color:rgba(104, 103, 106);
 @media screen and (max-width: 980px){
    header{
     flex-direction:column;
-    max-height:45vh;
+   
    }
    h1{
     align-self:center;
@@ -255,15 +255,55 @@ color:rgba(104, 103, 106);
     
 }
  @media screen and (max-width: 575px) {
-nav ul{
-    font-size: 3vw;
+header{
+    max-height: 20vh;
+}
+nav{
+    padding-top: 1vh;
+}
+
+
+    nav ul{
+    font-size: 4vw;
+}
+nav li a{
+    padding: 10px 10px;
 }
 h1{
-    font-size: 14vw;
+    font-size: 15vw;
     width:50%;
     min-height: 10vh;
 }
+.float_left{
+    float:left;
+   text-transform:uppercase;
+    text-align:left;
+    margin: 0 5%;
+    font-size: 4vw;
+}
+p{
+    font-size: 3vw;
+}
+.img_container{
+   height:825px;
+}
+.img_children:first-child{
+    height:150px;
+}
+.img_children{
+   max-height:150px;
+}
+.contact_me li{
+    display: block;
+    border-bottom: 2px solid black;
+    position:relative;
+    bottom:5vw;
+    padding:  10px 5.5vw; 
+    font-size: 3vw;
+    margin: 15px 0;
+    text-align:center;
  }
+}
 
 
 
