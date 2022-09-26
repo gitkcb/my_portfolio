@@ -8,6 +8,7 @@ body{
     color:black;
     font-family:monospace;
    }
+/*header and nav bar styling*/
 header{
     background-color:rgba(104, 103, 106);
     padding: 35px;
@@ -57,6 +58,7 @@ nav li a:hover{
     background-color:black;
     color:rgba(104, 103, 106);
 }
+/*holds hero image */
 .hero{
    height: 350px;
    width: 100%;
@@ -77,6 +79,7 @@ nav li a:hover{
     color: rgba(104, 103, 106);
     padding: 0 20px;
 }
+/*main content styling*/
 .main_container{
     display:flex;
 }
@@ -171,8 +174,6 @@ p{
     display:flex;
     height:200px;
     flex-wrap: wrap;
-    
-  
 }
 .contact_me li{
    display: inline;
@@ -181,7 +182,6 @@ p{
     padding: 10px; 
     font-size: 2.25vw;
     margin: 5px 1vw;
-    
     border-bottom: 3px solid black;
     text-decoration:none;
     text-transform:uppercase;
@@ -194,8 +194,7 @@ p{
 background-color:black;
 color:rgba(104, 103, 106);
 }
-
-
+/*media queries*/
 @media screen and (max-width: 980px){
    header{
     flex-direction:column;
@@ -210,29 +209,17 @@ color:rgba(104, 103, 106);
    }
    nav ul{
     float: none;
-   
    }
-  
-    .contact_me li{
-       
-        border-bottom: 3px solid black;
-        
-        
+   .contact_me li{
+    border-bottom: 3px solid black;
     position:relative;
     bottom: -7vw;
     padding:  0 5.5vw; 
     font-size: 2.25vw;
     margin: 0 auto;
     text-align:center;
-    
-   
-        
-        }
-   
-    
-    
-        
-    .img_children{
+    }
+   .img_children{
         flex:45%;
         }
   
@@ -265,16 +252,16 @@ color:rgba(104, 103, 106);
     .hero-text{
         top: 150px;
     }
- }
- @media screen and (max-width: 575px) {
-    h1{
-        font-size: 14vw;
-        width:50%;
-        min-height: 10vh;
-        
+    
 }
+ @media screen and (max-width: 575px) {
 nav ul{
     font-size: 3vw;
+}
+h1{
+    font-size: 14vw;
+    width:50%;
+    min-height: 10vh;
 }
  }
 
