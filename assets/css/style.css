@@ -273,6 +273,9 @@ color:rgba(104, 103, 106);
         min-height: 10vh;
         
 }
+nav ul{
+    font-size: 3vw;
+}
  }
 
 
